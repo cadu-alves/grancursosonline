@@ -79,6 +79,13 @@ h1, h2, h3, h4, h5, h6 {
   .questionBox .q-option {
     margin: 0 0 20px 5px;
     font-size: 14px; }
+  .questionBox .q-refs {
+    float: left;
+    margin-top: -30px;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    color: #b4b4b4; }
   .questionBox .confirm-btn {
     text-align: right; }
     .questionBox .confirm-btn button {
