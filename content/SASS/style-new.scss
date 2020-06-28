@@ -1,17 +1,16 @@
 @import 'general'; 
 
-.navbar {
-    height: 75px;
-    padding: 15px 60px 5px;
-    background: #fff;
-    border-bottom: 1px solid #dedede;
-    box-shadow: 0px 3px 3px 0px #b7b7b74d;
 
-    .row {
-        margin-left: 0;
-    }
-    .nav-content {
-        width: 100%;
-        border: 1px solid black;
-    }
+.w-container {
+    max-width: 900px;
+}
+
+
+//hide on small resolutions
+@media screen and (max-width:768px) {
+    .hide-sm{display: none;}
+}
+//hide on extra small resolutions
+@media screen and (max-width:544px) {
+    .hide-xs{display: none;}
 }

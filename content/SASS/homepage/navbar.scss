@@ -1,0 +1,50 @@
+.navbar {
+    min-height: 75px;
+    width: 100%;
+    padding: 15px 60px 10px;
+    background: #fff;
+    border-bottom: 1px solid #dedede;
+    box-shadow: 0px 3px 3px 0px #b7b7b74d;
+    position: fixed;
+    line-height: 40px;
+    z-index: 99999999;
+
+    .row {
+        margin-left: 0;
+    }
+    .nav-content {
+        width: 100%;
+        height: 100%;
+
+        // .nav-logo {
+        //     background-image:
+        //     url('');
+        //     }
+        // }
+        .nav-pages {
+            text-align: center;
+            a{ margin: 0px 5px;}
+        }
+        .nav-profile {
+            text-align: right;
+
+            .avatar {
+                height: 45px;
+                width: 45px;
+                border-radius: 100px;
+                background: #9c9c9c;
+                float: right;
+                margin-left: 30px;
+            }
+        }
+    }
+}
+.navbar-spacing {
+    height: 135px;
+    width: 100%;
+}
+
+
+.footer-spacing {
+    height: 120px;
+}

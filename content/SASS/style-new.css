@@ -13,20 +13,89 @@ body {
   font-family: 'font-custom';
   color: #5d5d5d;
   background: #ececec;
-  overflow-y: hidden; }
+  overflow-x: hidden; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'font-custom-2'; }
 
 /* End of universal Styles _____________________ */
 .navbar {
-  height: 75px;
-  padding: 15px 60px 5px;
+  min-height: 75px;
+  width: 100%;
+  padding: 15px 60px 10px;
   background: #fff;
   border-bottom: 1px solid #dedede;
-  box-shadow: 0px 3px 3px 0px #b7b7b74d; }
+  box-shadow: 0px 3px 3px 0px #b7b7b74d;
+  position: fixed;
+  line-height: 40px;
+  z-index: 99999999; }
   .navbar .row {
     margin-left: 0; }
   .navbar .nav-content {
     width: 100%;
-    border: 1px solid black; }
+    height: 100%; }
+    .navbar .nav-content .nav-pages {
+      text-align: center; }
+      .navbar .nav-content .nav-pages a {
+        margin: 0px 5px; }
+    .navbar .nav-content .nav-profile {
+      text-align: right; }
+      .navbar .nav-content .nav-profile .avatar {
+        height: 45px;
+        width: 45px;
+        border-radius: 100px;
+        background: #9c9c9c;
+        float: right;
+        margin-left: 30px; }
+
+.navbar-spacing {
+  height: 135px;
+  width: 100%; }
+
+.footer-spacing {
+  height: 120px; }
+
+.questionBox {
+  width: 100%;
+  min-height: 150px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid #dedede;
+  margin-bottom: 15px;
+  padding: 10px 15px 15px;
+  transition: 0.2s; }
+  .questionBox:hover {
+    border-left: 5px solid #3274d5;
+    padding-left: 11px;
+    transition: 0.2s;
+    box-shadow: 0px 3px 2px 0px #cecece; }
+  .questionBox .q-title {
+    font-family: 'font-custom'; }
+  .questionBox .q-divider {
+    width: 100%;
+    height: 5px;
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 15px; }
+  .questionBox .q-option {
+    margin: 0 0 20px 5px;
+    font-size: 14px; }
+  .questionBox .confirm-btn {
+    text-align: right; }
+    .questionBox .confirm-btn button {
+      background: #3274d5;
+      color: #fff;
+      padding: 7px 30px;
+      border-radius: 4px;
+      border: 1px solid #3167b8;
+      font-size: 14px;
+      text-transform: uppercase; }
+
+.w-container {
+  max-width: 900px; }
+
+@media screen and (max-width: 768px) {
+  .hide-sm {
+    display: none; } }
+@media screen and (max-width: 544px) {
+  .hide-xs {
+    display: none; } }
