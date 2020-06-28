@@ -1,0 +1,29 @@
+/* fonts _______________________________________ */
+@font-face {
+    font-family: 'font-custom';
+    src: url(../fonts/sohoGothic/SohoGothicPro-Regular.otf)
+}
+@font-face {
+    font-family: 'font-custom-2';
+    src: url(../fonts/titilliumWeb/TitilliumWeb-Regular.ttf)
+}
+/* end of Fonts ________________________________ */
+
+/* universal styles ____________________________ */
+body {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'font-custom';
+    color: #5d5d5d;
+    background: #ececec;
+    overflow-y: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'font-custom-2'; 
+}
+/* End of universal Styles _____________________ */
+
+@import 'homepage/homepage';
+@import 'modals/modals';
+@import 'questionBox/questionBox';

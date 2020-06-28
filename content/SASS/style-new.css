@@ -1,0 +1,32 @@
+/* fonts _______________________________________ */
+@font-face {
+  font-family: 'font-custom';
+  src: url(../fonts/sohoGothic/SohoGothicPro-Regular.otf); }
+@font-face {
+  font-family: 'font-custom-2';
+  src: url(../fonts/titilliumWeb/TitilliumWeb-Regular.ttf); }
+/* end of Fonts ________________________________ */
+/* universal styles ____________________________ */
+body {
+  width: 100vw;
+  min-height: 100vh;
+  font-family: 'font-custom';
+  color: #5d5d5d;
+  background: #ececec;
+  overflow-y: hidden; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'font-custom-2'; }
+
+/* End of universal Styles _____________________ */
+.navbar {
+  height: 75px;
+  padding: 15px 60px 5px;
+  background: #fff;
+  border-bottom: 1px solid #dedede;
+  box-shadow: 0px 3px 3px 0px #b7b7b74d; }
+  .navbar .row {
+    margin-left: 0; }
+  .navbar .nav-content {
+    width: 100%;
+    border: 1px solid black; }
