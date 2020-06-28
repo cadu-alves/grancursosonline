@@ -6,12 +6,15 @@
     <title>Gran Cursos Online - New Template</title>
     <!--  Bootstrap and Fontawesome -->
     <link rel="stylesheet" href="content/libs/Bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="content/libs/Bootstrap/bootstrap.css.map">
     <link rel="stylesheet" href="content/libs/FontAwesome/css/all.css">
     <!-- SASS Stylesheets -->
     <link rel="stylesheet" href="content/SASS/style-new.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="script/script.js"></script>
 </head>
-<body>
+
+<body ng-app="electionState" ng-controller="CaduController">
     <!-- Navbar -->
     <section id="navbar" class="navbar"> 
             <div class="nav-content row">
@@ -37,130 +40,14 @@
     <section id="workspace" class="workspace">
         <div class="container w-container">
 
-            <div class="questionBox">
-                <h6 class="q-title"> 1 - Considerando a insuficiência renal aguda IRA RENAL (Intrínseca ou estrutural) a principal causa é a necrose tubular aguda (NTA isquêmica e/ou tóxica). Sendo uma das situações especiais comuns a NTA SÉPTICA (associada a duas ou mais das seguintes condições de SIRS): Assinale a alternativa que corresponde a alguns sintomas da mesma: </h3>
-                <div class="q-divider"></div>
-                <div class="q-option q-a">
-                    <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio1a" name="customRadio1" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio1a">
-                            Temperatura > 38o C ou < 36o C frequência cardíaca > 90 bpm frequência respiratória > 20 ipm PaCO2 < 32 mmhg leucócitos > 12.000 ou < 4.000 mm3 mais de 10% de bastões ou metamielócitos foco infeccioso documentado ou hemocultura positiva.
-                        </label>
-                    </div>
-                </div>
-                <div class="q-option q-b">
-                    <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio1b" name="customRadio1" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio1b">
-                            Exame de urina I com proteinúria e proteinúria acima de 1g/dia hematúria com dismorfismo eritrocitário positivo ou cilindros hemáticos no sedimento urinário biópsia renal positiva.
-                    </div>
-                </div>
-                <div class="q-option q-c">
-                    <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio1c" name="customRadio1" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio1c">
-                            Manifestações periféricas de hipersensibilidade febre e rash cutâneo ou eosinofilia uso de droga associada a NIA – Por ex., penicilinas, cefalosporinas, quinolonas, alopurinol, cimetidina, rifampicina forte suspeita clínica patologias frequentemente associadas: leptospirose, legionella, sarcoidose biópsia renal positiva.
-                        </label>
-                    </div>
-                </div>
-                <div class="q-option q-d">
-                    <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio1d" name="customRadio1" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio1d">
-                            Nenhuma das alternativas
-                        </label>
-                    </div>
-                </div>
-                <div class="q-divider"></div>
-                <div class="confirm-btn">
-                    <button class="btn-custom">Responder</button>
-                </div>
-            </div>
-            
-            <div class="questionBox">
-                <h6 class="q-title"> 2 - A respeito da investigação diagnóstica na litíase urinária é CORRETO afirmar: </h3>
-                <div class="q-divider"></div>
-                <div class="q-option q-a">
-                    <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio2a" name="customRadio2" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio2a">
-                            A tomografia computadorizada é o exame tradicional para avaliação de litíase urinária e fornece informação funcional relacionada ao grau de obstrução. A radiação é maior do que na tomografia computadorizada. É necessária a administração de meio de contraste intravenoso, com risco de reações alérgicas ou nefrotoxicidade.
-                        </label>
-                    </div>
-                </div>
-                <div class="q-option q-b">
-                    <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio2b" name="customRadio2" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio2b">
-                            Na ultrassonografia os cálculos são demonstrados como focos ecogênicos brilhantes, com sombra acústica posterior. Os cálculos são visualizados razoavelmente bem , quando estão localizados no rim, no ureter distal ou na junção ureterovesical, especialmente se existe dilatação.
-                        </label>
-                    </div>
-                </div>
-                <div class="q-option q-c">
-                    <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio2c" name="customRadio2" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio2c">
-                            A urografia venosa é o exame radiológico mais sensível para detecção, localização e caracterização de calcificações urinárias, é consideravelmente mais efetiva do que a urografia venosa, frequentemente, demonstra cálculos não obstrutivos que são perdidos na urografia venosa, é mais rápida e, muitas vezes, não é necessário meio de contraste e diferencia facilmente cálculo não-opacos e coágulos ou tumores.
-                        </label>
-                    </div>
-                </div>
-                <div class="q-option q-d">
-                    <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio2d" name="customRadio2" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio2d">
-                            Nenhuma das alternativas.
-                        </label>
-                    </div>
-                </div>
-                <div class="q-divider"></div>
-                <div class="confirm-btn">
-                    <button class="btn-custom">Responder</button>
-                </div>
-            </div>
-            
-            <div class="questionBox">
-                <h6 class="q-title"> 3 - Este é o título da questão, finge que e um titulo bem grande de uma questao discursiva cabulosa que precisa explicar uma porrada de coisa pro aluno ler antes de responder de fato, como que fica isso no layout? </h3>
-                <div class="q-divider"></div>
-                <div class="q-option q-a">
-                    <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio3a" name="customRadio3" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio3a">
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </label>
-                    </div>
-                </div>
-                <div class="q-option q-b">
-                    <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio3b" name="customRadio3" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio3b">
-                            Nulla nibh dui, scelerisque sed mollis sed, viverra sed velit. Nunc hendrerit venenatis faucibus.
-                        </label>
-                    </div>
-                </div>
-                <div class="q-option q-c">
-                    <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio3c" name="customRadio3" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio3c">
-                            Proin tellus tortor, egestas id metus in, dignissim dictum erat. Cras placerat at arcu eget varius. Aliquam hendrerit maximus libero.
-                        </label>
-                    </div>
-                </div>
-                <div class="q-option q-d">
-                    <div class="custom-control custom-radio">
-                        <input type="radio" id="customRadio3d" name="customRadio3" class="custom-control-input">
-                        <label class="custom-control-label" for="customRadio3d">
-                            Toggle this custom radio
-                        </label>
-                    </div>
-                </div>
-                <div class="q-divider"></div>
-                <div class="confirm-btn">
-                    <button class="btn-custom">Responder</button>
-                </div>
-            </div>
+            <div ng-include="'./templates/homepage/questions.html'"> </div>
+
         </div>
     </section>
 
+    <div class="toolbox">
+        <div> a </div>
+    </div>
 
 <section class="footer-spacing"></section>
 </body>

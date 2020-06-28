@@ -1,0 +1,21 @@
+<div class="questionBox" ng-repeat="question in questions" id="{{question.id}}">
+    <h6 class="q-title"> {{question.id}} - {{question.question}}  </h3>
+    <div class="q-divider"></div>
+    <div class="q-option" ng-repeat="answer in question.answers">
+        <div class="custom-control custom-radio">
+            <input
+            id="{{answer.id}}"
+            type="radio"
+            name="customRadio1"
+            class="custom-control-input"
+            >
+            <label class="custom-control-label" for="{{answer.id}}" >
+                {{answer.id}} - {{answer.answer}} - {{question.userChoice}}
+            </label>
+        </div>
+    </div>
+    <div class="q-divider"></div>
+    <div class="confirm-btn">
+        <button class="btn-custom" ng-click="{{teste(question)}}">Responder</button>
+    </div>
+</div>
